@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+header{
+    text-align: center;
+
+}
+header h1{
+    color:white;
+    background: cornflowerblue;
+    font-size: 50px;
+}
+
+nav{
+    overflow: hidden;
+    background: cornflowerblue;
+}
+nav a{
+    float:left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a:hover{
+    background: white;
+    color:cornflowerblue;
+}
+
+.topnav ul {
+    list-style-type: none;
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+img{
+    border-radius: 10px;
+    height: 300px;
+
+}
+.img{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.combos{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    display: block;
+    background: cornflowerblue;
+}
+[class*="col-"] {
+    width: 33%;
+
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 1px solid cornflowerblue;
+    text-align: center;
+}
+
+table {
+    color: white;
+    text-align: center;
+
+}
+table th{
+
+    text-align: center;
+}
+
+table td{
+    padding: 5px;
+    text-align: right;
+}
+.container{
+    padding: 15px;
+    text-align: center;
+    background: cornflowerblue;
+    border: cornflowerblue;
+    border-radius: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+    color:white;
+}
+[type="text"]{
+    margin: 5px;
+}
+input {
+    border:white;
+    border-radius: 5px;
+    padding: 5px;
+}
+.transporte {
+    display: none;
+    padding: 5px;
+    border:white;
+    border-radius: 5px;
+}
+
+.horas {
+
+    padding: 5px;
+    border:white;
+    border-radius: 5px;
+}
+select{
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.button{
+    padding: 5px 5px 5px 5px;
+    border: white;
+    border-radius: 5px;
+    color: cornflowerblue;
+    background: white;
+    font-size: 15px;
+
+}
+.button:hover{
+    background: gray;
+    color: white;
+
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    background: cornflowerblue;
+    margin-top: 20px;
+    color: white;
+}
