@@ -25,7 +25,7 @@
 </header>
 <br><br><br><br>
 <div class="container">
-    <form class="index">
+    <form class="index" method="post">
         <p class="form">
         <label for="nombre">Nombre:</label>
         <input type="text" class="formulario" id="nombre" name="nombre"/>
@@ -52,8 +52,8 @@
                 <legend>
                     ¿Requiere Transporte?
                 </legend>
-                <input type="radio"class="radio-button" id="si" value="true">Si
-                <input type="radio"class="radio-button" id="no" value="false">No
+                <input type="radio"class="radioTransporte" id="si" value="true">Si
+                <input type="radio"class="radioTransporte" id="no" value="false">No
             </fieldset>
         </div>
 
@@ -75,11 +75,11 @@
                 <legend>
                     Horas de Atención
                 </legend>
-                <input type="radio"class="radio-button" id="ninguno" value="0">Ninguno<br>
-                <input type="radio"class="radio-button" id="op2" value="50"> 4 horasXsemanaX1mes<br>
-                <input type="radio"class="radio-button" id="op3" value="80"> 4 horasXsemanaX2meses<br>
-                <input type="radio"class="radio-button" id="op4" value="100"> 8 horasXsemanaX1mes<br>
-                <input type="radio"class="radio-button" id="op5" value="150"> 8 horasXsemanaX2meses<br>
+                <input type="radio"class="radioHoras" id="0" value="0">Ninguno<br>
+                <input type="radio"class="radioHoras" id="op2" value="50"> 4 horasXsemanaX1mes<br>
+                <input type="radio"class="radioHoras" id="op3" value="80"> 4 horasXsemanaX2meses<br>
+                <input type="radio"class="radioHoras" id="op4" value="100"> 8 horasXsemanaX1mes<br>
+                <input type="radio"class="radioHoras" id="op5" value="150"> 8 horasXsemanaX2meses<br>
             </fieldset>
         </div>
 
@@ -87,8 +87,8 @@
         <br>
 
         <br><br><br>
-        <input type="submit" class="button" id="button">
-        <p class="mess"></p>
+        <input type="submit" class="button" id="button" value="Registrarse">
+        <p class="errorSubmit"></p>
     </form>
 </div>
 <footer>
